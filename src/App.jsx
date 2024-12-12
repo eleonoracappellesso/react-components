@@ -1,7 +1,12 @@
+import HeaderComponent from "./components/HeaderComponent";
 
 function App() {
 
-  return
+  return (
+    <>
+      <HeaderComponent />
+    </>
+  )
 }
 
 export default App;
