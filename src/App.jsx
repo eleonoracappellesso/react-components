@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <HeaderComponent />
-      <main className="d-flex justify-content-between flex-wrap align-items-center">
+      <main className="container d-flex justify-content-center flex-wrap align-items-center">
         {posts.map((post) => (
           <CardComponent key={post.id} post={post} />
         ))}
