@@ -2,6 +2,10 @@ body {
   background-color: #E5E5E5;
 }
 
+main {
+  margin-bottom: 150px;
+}
+
 .read-btn {
   background-color: #DAA521;
   color: white;
