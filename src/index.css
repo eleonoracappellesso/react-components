@@ -1,3 +1,7 @@
+body {
+  background-color: #E5E5E5;
+}
+
 .read-btn {
   background-color: #DAA521;
   color: white;
@@ -30,4 +34,10 @@
   border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
   border-radius: var(--bs-btn-border-radius);
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+footer {
+  background-color: #333333;
+  color: white;
+  font-size: smaller;
 }

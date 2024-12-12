@@ -1,6 +1,7 @@
 import posts from "./data/post";
 import HeaderComponent from "./components/HeaderComponent";
 import MainComponent from "./components/MainComponent";
+import FooterComponent from "./components/FooterComponent";
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <HeaderComponent />
       <MainComponent post={posts} />
+      <FooterComponent />
     </>
   )
 }
